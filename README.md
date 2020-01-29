@@ -24,11 +24,9 @@ In order to be compatible Malvina is also **synthesizer.com** compatible :
 
 - **AC Power:** 110VAC, 220VAC
 
-
-
 ## Power Units : 1xxx
 
-
+- 1001 : Power Unit : +15V / -15V / +5V : 1A : [link](./1001-PowerUnit)
 
 ## Oscillators : 2xxx
 
