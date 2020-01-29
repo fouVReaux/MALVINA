@@ -1,10 +1,10 @@
 # Malvina-Analog-Synthesizer
 
-
+Malvina is a lovely - but impetuous - synth for sound lovers.
 
 ## Malvina’s Format
 
-
+Malvina is a 5U synthesizer. This mean that a module is 8.75” tall (5U) with widths of 2.125" multiples. It is powered by a +/-15v and +5v power unit and use large knob and 1/4" jacks. This type of synthesizer is related to synth from (synthesizers.com)[https://www.synthesizers.com/formfactors.html]
 
 ## Power Units : 1xxx
 
