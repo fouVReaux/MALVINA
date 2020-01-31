@@ -7,4 +7,4 @@ Adjustable Regulated Power Unit Module
 
 ## Schematics
 
-![](/home/vr-x220/Documents/GitHub/MALVINA/1001-PowerUnit/1001.png)
+<center><img src="./1001.png" width="800"></center>
