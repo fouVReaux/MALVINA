@@ -1,0 +1,242 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "1001 - Power unit "
+Date "2020-01-29"
+Rev "1.0.0"
+Comp "Cyril Lavrat - Malvina Synthesizer"
+Comment1 "Power Supply Unit for the Malvina Synth"
+Comment2 "+15V / -15V / +5V "
+Comment3 "1A for each"
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_1P_SS T?
+U 1 1 5E31B9D1
+P 1700 2100
+F 0 "T?" H 1700 2493 50  0000 C CNN
+F 1 "~220V > +/-25V" H 1700 2395 50  0000 C CNN
+F 2 "" H 1700 2100 50  0001 C CNN
+F 3 "~" H 1700 2100 50  0001 C CNN
+	1    1700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E31CAD5
+P 850 2000
+F 0 "J?" H 768 1663 50  0000 C CNN
+F 1 " ~220V" H 768 1761 50  0000 C CNN
+F 2 "" H 850 2000 50  0001 C CNN
+F 3 "~" H 850 2000 50  0001 C CNN
+	1    850  2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5E321E89
+P 2900 1850
+F 0 "D?" V 2854 1930 50  0000 L CNN
+F 1 "2A200V" V 2945 1930 50  0000 L CNN
+F 2 "" H 2900 1850 50  0001 C CNN
+F 3 "~" H 2900 1850 50  0001 C CNN
+	1    2900 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5E32C9C1
+P 3400 2350
+F 0 "D?" V 3350 2150 50  0000 L CNN
+F 1 "2A200V" V 3450 2000 50  0000 L CNN
+F 2 "" H 3400 2350 50  0001 C CNN
+F 3 "~" H 3400 2350 50  0001 C CNN
+	1    3400 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E334384
+P 2450 1850
+F 0 "C?" H 2565 1896 50  0000 L CNN
+F 1 "103" H 2565 1805 50  0000 L CNN
+F 2 "" H 2488 1700 50  0001 C CNN
+F 3 "~" H 2450 1850 50  0001 C CNN
+	1    2450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5E33A8E6
+P 3400 1850
+F 0 "D?" V 3354 1930 50  0000 L CNN
+F 1 "2A200V" V 3445 1930 50  0000 L CNN
+F 2 "" H 3400 1850 50  0001 C CNN
+F 3 "~" H 3400 1850 50  0001 C CNN
+	1    3400 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5E331BE6
+P 2900 2350
+F 0 "D?" V 2850 2150 50  0000 L CNN
+F 1 "2A200V" V 2950 2000 50  0000 L CNN
+F 2 "" H 2900 2350 50  0001 C CNN
+F 3 "~" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E342C48
+P 2450 2350
+F 0 "C?" H 2565 2396 50  0000 L CNN
+F 1 "103" H 2565 2305 50  0000 L CNN
+F 2 "" H 2488 2200 50  0001 C CNN
+F 3 "~" H 2450 2350 50  0001 C CNN
+	1    2450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E3431FF
+P 3850 1850
+F 0 "C?" H 3965 1896 50  0000 L CNN
+F 1 "103" H 3965 1805 50  0000 L CNN
+F 2 "" H 3888 1700 50  0001 C CNN
+F 3 "~" H 3850 1850 50  0001 C CNN
+	1    3850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E343785
+P 3850 2350
+F 0 "C?" H 3965 2396 50  0000 L CNN
+F 1 "103" H 3965 2305 50  0000 L CNN
+F 2 "" H 3888 2200 50  0001 C CNN
+F 3 "~" H 3850 2350 50  0001 C CNN
+	1    3850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E34791B
+P 4350 1850
+F 0 "C?" H 4468 1896 50  0000 L CNN
+F 1 "2200uF/35V" H 4468 1805 50  0000 L CNN
+F 2 "" H 4388 1700 50  0001 C CNN
+F 3 "~" H 4350 1850 50  0001 C CNN
+	1    4350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E349AC7
+P 4350 2350
+F 0 "C?" H 4100 2300 50  0000 L CNN
+F 1 "2200uF/35V" H 3750 2400 50  0000 L CNN
+F 2 "" H 4388 2200 50  0001 C CNN
+F 3 "~" H 4350 2350 50  0001 C CNN
+	1    4350 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 2000 2900 2100
+Wire Wire Line
+	3400 2000 3400 2100
+Wire Wire Line
+	4350 2000 4350 2200
+Wire Wire Line
+	4350 1700 4350 1500
+Wire Wire Line
+	3400 1650 3400 1700
+Wire Wire Line
+	2900 1650 2900 1700
+Wire Wire Line
+	2900 1650 3150 1650
+Wire Wire Line
+	3150 1650 3150 1500
+Wire Wire Line
+	3150 1500 4350 1500
+Connection ~ 3150 1650
+Wire Wire Line
+	3150 1650 3400 1650
+Wire Wire Line
+	2900 2500 2900 2550
+Wire Wire Line
+	2900 2550 3150 2550
+Wire Wire Line
+	3400 2550 3400 2500
+Wire Wire Line
+	3150 2550 3150 2700
+Wire Wire Line
+	3150 2700 4350 2700
+Wire Wire Line
+	4350 2700 4350 2500
+Connection ~ 3150 2550
+Wire Wire Line
+	3150 2550 3400 2550
+Wire Wire Line
+	2100 2100 2450 2100
+Connection ~ 2900 2100
+Wire Wire Line
+	2900 2100 2900 2200
+Wire Wire Line
+	2450 2200 2450 2100
+Connection ~ 2450 2100
+Wire Wire Line
+	2450 2100 2900 2100
+Wire Wire Line
+	2450 2000 2450 2100
+Wire Wire Line
+	2450 1700 2450 1650
+Wire Wire Line
+	2450 1650 2900 1650
+Connection ~ 2900 1650
+Wire Wire Line
+	2450 2500 2450 2550
+Wire Wire Line
+	2450 2550 2900 2550
+Connection ~ 2900 2550
+Wire Wire Line
+	3400 2550 3850 2550
+Wire Wire Line
+	3850 2550 3850 2500
+Connection ~ 3400 2550
+Wire Wire Line
+	3850 2000 3850 2100
+Wire Wire Line
+	3400 1650 3850 1650
+Wire Wire Line
+	3850 1650 3850 1700
+Connection ~ 3400 1650
+Wire Wire Line
+	3400 2100 3850 2100
+Connection ~ 3400 2100
+Wire Wire Line
+	3400 2100 3400 2200
+Connection ~ 3850 2100
+Wire Wire Line
+	3850 2100 3850 2200
+Wire Wire Line
+	3850 2100 4200 2100
+Wire Wire Line
+	4200 2100 4200 2800
+Wire Wire Line
+	4200 2800 2250 2800
+Wire Wire Line
+	2250 2800 2250 2300
+Wire Wire Line
+	2250 2300 2100 2300
+Wire Wire Line
+	1300 1900 1050 1900
+Wire Wire Line
+	1050 2000 1300 2000
+Wire Wire Line
+	1300 2000 1300 2300
+$EndSCHEMATC
